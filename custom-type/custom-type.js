@@ -1,4 +1,3 @@
-"use strict";
 let user1 = { fName: "mohebur", userId: 908787, isStudent: true };
 // console.log(user1);
 let usersInfo = [
@@ -22,3 +21,5 @@ let user = {
     },
 };
 console.log(user);
+export {};
+//# sourceMappingURL=custom-type.js.map

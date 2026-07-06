@@ -1,4 +1,3 @@
-"use strict";
 // enum 3 dhoroner type niye kaj kore
 // 1 numeric,
 // 2 string,
@@ -24,4 +23,6 @@ var requestType3;
     requestType3["deleteData"] = "deleteData";
     requestType3[requestType3["id"] = 89] = "id";
 })(requestType3 || (requestType3 = {}));
+export {};
 // Enum হলো TypeScript-এর একটি Special Type, যা Related Constant Values-কে একটি Meaningful Name-এর অধীনে Group করে রাখে।
+//# sourceMappingURL=enum-type.js.map

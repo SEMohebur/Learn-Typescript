@@ -41,3 +41,24 @@ console.log(isAvailable);
 console.log(mixedArray);
 
 // type[] এবং Array<type>—দুটিই Array declare করার বৈধ Syntax। একই type-এর element হলে সাধারণ Array Type ব্যবহার করো, আর একাধিক type-এর element হলে Union Type (|) ব্যবহার করো।
+
+// ==============================
+// Tuple Type in TypeScript
+// ==============================
+
+// Tuple-এর প্রতিটি element-এর Type এবং Position Fixed থাকে।
+
+let user: [number, string];
+
+user = [101, "Mohebur"]; // Correct
+
+// user = ["Mohebur", 101]; //  Error (Order ভুল)
+
+// ------------------------------
+
+let student: [string, number, boolean];
+
+student = ["Rahim", 22, true];
+
+console.log(user);
+console.log(student);

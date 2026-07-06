@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class User {
     userName;
     age;
@@ -40,6 +38,7 @@ student1.getStudentId();
 student1.display();
 // readonly variable sodho pora jabe read kora jabe but eta kono bhabei change kora jabena ba reassign kora jabena
 console.log(student1.religion);
+export {};
 // ======================================================
 // sohoje recap korar jonno
 // class User {
