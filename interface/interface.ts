@@ -11,3 +11,16 @@ const user1: User = {
 };
 
 console.log(user1);
+
+interface StudentInfo {
+  name: string;
+  age: number;
+  isReguler: boolean;
+  currentStudent?: string;
+}
+
+const student1: StudentInfo = {
+  name: "sagur",
+  age: 22,
+  isReguler: true,
+};
